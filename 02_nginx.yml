@@ -10,3 +10,6 @@
       ansible.builtin.systemd:
         name: nginx
         state: started
+    - name: Print msg
+      ansible.builtin.debug:
+        msg: nginx installed
