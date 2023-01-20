@@ -1,0 +1,7 @@
+- name: Demo
+  hosts: all
+  become: yes
+  tasks:
+    - name: Print msg
+      ansible.builtin.debug:
+        msg: Hello Puppy
