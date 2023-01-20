@@ -12,14 +12,13 @@
   hosts: all
   connection: local
 #  vars_files can also be declared in tasks level
-#  vars_files:
-#    - var.yml
+  vars_files:
+    - var.yml
   tasks:
     - name: Access a variable
       ansible.builtin.debug:
         msg: URL == {{URL}}
-      vars_files:
-        - var.yml
+
 
 
 - name: Declare a variable at tasks level
