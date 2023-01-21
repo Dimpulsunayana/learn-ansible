@@ -1,7 +1,3 @@
 - name: print Hello
-#  hosts: all
-# # connection: local
-#  tasks:
-#    - name: print hello from role
   ansible.builtin.debug:
     msg: Hello from role
