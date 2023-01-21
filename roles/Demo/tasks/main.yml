@@ -1,4 +1,5 @@
 - name: Hello from role
   hosts: all
+  connection: local
   ansible.builtin.debug:
     msg: Hello from role
