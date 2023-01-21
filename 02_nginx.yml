@@ -1,4 +1,7 @@
-# run command-> ansible-playbook -i localhost,  -e ansible_user=centos -e ansible_password=DevOps321 02_nginx.yml
+# run command-> if connection: local is not available in code,
+#ansible-playbook -i localhost,  -e ansible_user=centos -e ansible_password=DevOps321 02_nginx.yml
+# run command-> if connection: local is available in code,
+#ansible-playbook -i localhost, 02_nginx.yml
 - name: install nginx
   hosts: all
   become: yes
