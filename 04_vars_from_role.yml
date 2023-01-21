@@ -1,0 +1,4 @@
+- name: hello from role
+  hosts: all
+  roles:
+    -demo
