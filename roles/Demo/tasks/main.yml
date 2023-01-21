@@ -1,4 +1,4 @@
-- name: Hello from role
+- name: print Hello
 #  hosts: all
 # # connection: local
 #  tasks:
