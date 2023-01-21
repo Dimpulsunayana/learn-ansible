@@ -1,4 +1,5 @@
 - name: hello from role
   hosts: all
+  connection: local
   roles:
     - Demo
