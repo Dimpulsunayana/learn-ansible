@@ -1,3 +1,5 @@
+#Run command ->ansible-playbook -i localhost, 01_sample.yml
+#yes in case if you need to send the hostnames from command line rather than a file then comma is mandatory
 - name: Demo
   hosts: all
   become: yes

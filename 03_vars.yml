@@ -1,3 +1,5 @@
+#Run command -> ansible-playbook -i inv  03_vars.yml
+#otherwise will fail for inv file(line-40)
 - name: Declare a variable at play level
   hosts: all
   connection: local
