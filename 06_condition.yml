@@ -2,7 +2,7 @@
   hosts: all
   connection: local
   vars:
-    fruit_name
+    - fruit_name
   tasks:
     debug:
       msg: print fruit name
