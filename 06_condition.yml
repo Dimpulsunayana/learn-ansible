@@ -2,7 +2,7 @@
   hosts: all
   connection: local
   vars:
-    a: 100
+    a: 8
     b: true
   tasks:
     - name: string con
