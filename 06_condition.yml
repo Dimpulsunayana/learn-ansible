@@ -1,10 +1,19 @@
 - name: Demo on condition
   hosts: all
   connection: local
-#  vars:
-#    fruit_name: apple
+  vars:
+    a: 100
+    b: true
   tasks:
     - name: string con
       debug:
        msg: print fruit name
       when: fruit_name == "apple"
+    - name: num con
+      debug:
+        msg: a is greater than 10
+      when: a > 10
+    - name: boolean con
+      debug:
+        msg: b is true
+      when: b
