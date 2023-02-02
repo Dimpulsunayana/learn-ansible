@@ -4,6 +4,7 @@
 #  vars:
 #    fruit_name: apple
   tasks:
-    debug:
-      msg: print fruit name
-    when: fruit_name == "apple"
+    - name: string con
+      debug:
+       msg: print fruit name
+      when: fruit_name == "apple"
