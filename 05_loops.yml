@@ -13,4 +13,4 @@
         msg: fruit name is {{ item.name }},quantity is {{ item.qty }}
       loop:
         - {name: "orange", qty: 100}
-        - {name: "mango", qty:200}
+        - {name: "mango", qty: 200}
