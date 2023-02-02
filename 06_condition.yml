@@ -1,9 +1,9 @@
 - name: Demo on condition
   hosts: all
   connection: local
-  vars:
-    fruit_name: apple
+#  vars:
+#    fruit_name: apple
   tasks:
     debug:
       msg: print fruit name
-    when: fruit_name
+    when: fruit_name == "apple"
