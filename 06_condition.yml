@@ -2,8 +2,8 @@
   hosts: all
   connection: local
   vars:
-    - fruit_name
+    fruit_name: apple
   tasks:
     debug:
       msg: print fruit name
-    when: fruit_name == apple
+    when: fruit_name
